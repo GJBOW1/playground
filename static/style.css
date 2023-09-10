@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    height: 100em;
+    background-color: lightgray;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    height: 8em;
+    width: 8em;
+    background-color: #5d80f0;
+    margin: 5em .5em 0em .5em; 
+    border-radius: 10%;
+}
+

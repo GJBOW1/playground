@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Level 2</title>
+</head>
+<body>
+    <h1>Welcome to Level 2
+    </h1>
+    <h2 style = display: flex>
+        {% for i in range(_number) %}
+        <div>
+        </div>
+        {% endfor %}
+    </h2>
+    <h3>Feel free to modify the number located in the URL to dictate how many boxes you see.</h3>
+    <a href="/play/3/green">Take me to Level 3</a>
+    <a href="/play">Go Back to Level 1</a>
+</body>
+</html>
